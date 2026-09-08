@@ -1,0 +1,55 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Comments on Paper}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Editor's Response}
+
+The paper has serious sections to be improved, and the reviewer has asked for a major revision of this work. The authors should answer the comments one by one and improve the quality of the paper. It is important to address all the comments of the referees.
+
+\section*{Reviewer \#1: Major Revision}
+
+The proposed method introduces a prediction approach to content caching in a federated learning environment by leveraging a probability-based caching framework. This framework utilizes federated learning and global model parameters to predict content popularity and enable intelligent caching decisions. However, the article's inclusion of vertical FL seems misplaced, and it does not adequately explain horizontal FL, which would naturally align with the concept of caching popular content. The discussion of VFL introduces unnecessary complexity, potentially confusing readers regarding the framework expectations, novelty, and overall coherence. Authors must address the following concerns:
+
+\begin{enumerate}
+    \item The authors must elaborate on the specifics of applying VFL for cache content prediction. Is the proposed framework tailored specifically for popular content prediction tasks? What sets it apart from existing approaches?
+    \item The authors need to thoroughly explain how the proposed framework addresses distributed cache optimization using Federated Learning.
+    \item While Federated Learning is an advanced framework and popular content prediction is an important research area, the manuscript lacks a strong rationale for using Federated Learning for cache content prediction. A comprehensive discussion is necessary on the benefits of Federated Learning compared to other methodologies when dealing with urban traffic data.
+    \item The contribution of this work is unclear, especially regarding comparisons with existing and novel approaches. The application of VFL and popular content prediction in vehicles alone does not seem to be a sufficient contribution for publication in this journal.
+    \item The paper does not clearly articulate why HFL is inadequate and why VFL is more suitable for this problem. Specifically, the mentioned subsection `The Proposed Asynchronous VFL Algorithm’ is not in fact VFL. It addresses the FL problem. Why have the authors claimed to take the wrong approach where the `Algorithm 1 Global Model Update with Vehicle Data’ is not vertical federated learning?
+    \item The evaluation lacks an explanation of the Federated Learning setup. For instance, which participant (vehicle) holds which portion of the data? What features are available to each participant? How is data alignment managed to ensure that data belongs to corresponding rows?
+\end{enumerate}
+
+\section*{Reviewer \#2: Minor Revision}
+
+The author mentioned in the research contribution that they developed the vehicular edge and FL model for content popularity mechanisms for commuters. If the authors developed the asynchronous vertical federated learning-based model, they should add all the details in a separate section, including how they developed it, what data and instruments were used, and how results were obtained and validated. The overall area looks innovative. I have the following concerns regarding the draft:
+
+\begin{enumerate}
+    \item There is a need for severe corrections in the proposed model where horizontal and vertical federated learning are mentioned without clearly describing the boundaries. How are research results retrieved? How are global parameters trained and optimized? Clearly redefine the proposed work without these errors.
+    \item The literature review section lacks clarity regarding its relevance to the overall content.
+    \item There is a lack of coverage on federated learning research in the field of content prediction.
+    \item Pay special attention to the formulation and citation of formulas in the article.
+    \item How scalable is your approach? How does the performance differ as the number of vehicles within the RSU coverage area increases?
+\end{enumerate}
+
+\section*{Reviewer \#3: Minor Revision}
+
+The authors develop a model to improve content prediction accuracy and reduce latency by utilizing FL and edge computing on a road network. The overall approach looks interesting. I have the following concerns regarding the draft:
+
+\begin{enumerate}
+    \item The writing should be improved. The sentences are too long. They should be shorter and more concise.
+    \item How does this framework address data heterogeneity?
+    \item There are spelling mistakes, and abbreviations are used without mentioning them in the manuscript.
+    \item The references should be carefully checked when submitting the revised manuscript.
+    \item There are many writing errors, such as capitalization, formula referencing, and symbol expressions.
+\end{enumerate}
+
+\end{document}
