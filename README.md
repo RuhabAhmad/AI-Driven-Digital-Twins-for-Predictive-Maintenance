@@ -178,5 +178,5 @@ No credentials, API keys, cloud tokens, or private data are stored in this repos
 ## Contact
 
 - Ayan Asif — i221097@nu.edu.pk
-- Ruhab Ahmad — i230559@nu.edu.pk
+- Ruhab Ahmad — i230559@isb.nu.edu.pk
 - Supervisor: Basharat Hussain — basharat.hussain.v@isb.nu.edu.pk
